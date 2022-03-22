@@ -17,11 +17,13 @@ Publiez votre code et ses modifications dans le dépôt
 Bien que nous souhaitions commencer par analyser la validité des Numéros de Sécurité Social (SSN), vous allez débuter le projet en créant :
 
 - une classe `Personne` qui :
+
         - encapsule le nom, prénom et numéro de sécurité social d'une personne
         - (si besoin) possède des getters permettant d'accéder à ces valeurs
         - possède une méthode publique `has_valid_ssn` qui déclenche l'analyse d'une instance de la classe `SSN` et retourne `True` si le SSN est valide, `False` sinon
 
 - une classe Ssn qui :
+
         - encapsule un numéro de sécurité social
         - possède une méthode publique `is_valid` qui retourne `True` si le SSN est valide, `False` sinon.
 
