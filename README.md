@@ -33,10 +33,10 @@ Un SSN est valide si :
 - il est composé des bonnes valeurs possibles (cf image ci-dessous et disponible dans le dépôt `img/SSN.jpeg`)
 - sa clef de contrôle est valide
 
+**Indication : il serait bon d'avoir un ensemble de tests pour valider les différents cas d'utilisations**
+
 Image wikipedia:
 ![SSN](https://user-images.githubusercontent.com/95085398/143722344-841fa617-5323-4c4d-a532-01c689d2d66a.jpeg)
-
-Indication : **il serait bon d'avoir un ensemble de tests pour valider les différents cas d'utilisations**
 
 # Exercice 2 - Utilisons Docker pour peupler une base de donnée MongoDB avec un code Python
 
